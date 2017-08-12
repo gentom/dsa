@@ -1,4 +1,4 @@
-def binarySearch[A <% Ordered[A]](xs: Seq[A], x: A): Option[Int] = {
+def binary_search[A <% Ordered[A]](xs: Seq[A], x: A): Option[Int] = {
   var (low, high) = (0, xs.size - 1)
   while (low <= high)
     (low + high) / 2 match {
